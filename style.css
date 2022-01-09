@@ -1,4 +1,41 @@
 body{
     margin: 0%;
     padding: 0%;
+    background-color: var(--dark);
+    color: var(--text);
+    box-sizing: border-box;
+}
+:root{
+    --primary: #5b21b6;
+    --dark:#1f2937;
+    --text:#f9fafb;
+
+
+}
+.navbar{
+    background-color: var(--primary);
+    padding: .6rem;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+li a{
+    text-decoration: none;
+    color: var(--text);
+    font-size: 1.2rem;
+    cursor: pointer;
+
+
+}
+a:hover{
+    
+    /* font-weight: bold; */
+    /* font-size: 1.4rem; */
+    /* transition: 0.4s; */
+     /* overflow: hidden; */
+
 }
