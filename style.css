@@ -31,11 +31,23 @@ li a{
 
 
 }
-a:hover{
+/* a:hover{ */
     
     /* font-weight: bold; */
     /* font-size: 1.4rem; */
     /* transition: 0.4s; */
      /* overflow: hidden; */
 
+/* } */
+.card{
+    margin: 3rem 20%;
+    border: .2rem solid var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: -1px -1px 10px 0 blueviolet;
+}
+.container{
+    display: block;
 }
